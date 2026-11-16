@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="px-[24px] min-h-screen flex flex-col justify-center items-center bg-[hsl(47,88%,63%)] font-['Figtree'] font-medium">
+  <main>
+    <article class="max-w-[384px] flex flex-col p-[24px] bg-[hsl(0,0%,100%)] border border-[hsl(0,0%,7%)] rounded-[20px] shadow-[8px_8px_0_hsl(0,0%,7%)]">
+      <img class="w-full rounded-[10px]" src="./assets/images/illustration-article.svg" alt="Yellow and black geometric image">
+
+      <p class="w-fit mt-[24px] mb-[12px] py-[4px] px-[12px] bg-[hsl(47,88%,63%)] rounded-[4px] text-[12px] font-extrabold text-[hsl(0,0%,7%)]">Learning</p>
+      
+      <p class="mb-[12px] text-[12px] sm:text-[14px] text-[hsl(0,0%,7%)]">Published 21 Dec 2023</p>
+
+      <h1 class="mb-[12px] text-[20px] sm:text-[24px] font-extrabold"><a href="#" class="text-[hsl(0,0%,7%)] transition-colors duration-300 hover:text-[hsl(47,88%,63%)] focus:text-[hsl(47,88%,63%)]">HTML & CSS foundations</a></h1>
+
+      <p class="mb-[24px] text-[14px] sm:text-[16px] leading-[24px] text-[hsl(0,0%,42%)]">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+
+      <div class="flex items-center gap-[12px]">
+        <img class="w-[32px]" src="./assets/images/image-avatar.webp" alt="Photo of Greg Hooper">
+        <p class="text-[14px] font-extrabold text-[hsl(0,0%,7%)]">Greg Hooper</p>
+      </div>
+    </article>
+  </main>
+
+  <footer class="mt-[32px] text-[11px] text-center">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" class="text-[hsl(228,45%,44%)] underline">Frontend Mentor</a>. 
+    Coded by <a href="#" class="text-[hsl(228,45%,44%)] underline">Rashaad Galloway</a>.
+  </footer>
+</body>
+</html>
