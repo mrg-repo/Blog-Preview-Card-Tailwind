@@ -40,7 +40,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 
 ### What I learned
--When using Tailwind, utility classes replace the style.css via direct insertion into the index.html file. 
+- When using Tailwind, utility classes replace the style.css via direct insertion into the index.html file. 
 - You can use `text` to change both the font size and color
 - Ultimately, Tailwind generates CSS behind the scenes for us
 
